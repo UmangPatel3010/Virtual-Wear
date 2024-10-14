@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "442234235203",
+    "project_id": "virtualwear-99b1d",
+    "storage_bucket": "virtualwear-99b1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442234235203:android:4b3b66480fa7f56caca7f6",
+        "android_client_info": {
+          "package_name": "com.example.virtualwear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442234235203-3aqqomcikf8saql0840sq2vu8dbh8hvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgrZpxG8C0RyHenBzOGNDdj5vAnJP1gvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442234235203-3aqqomcikf8saql0840sq2vu8dbh8hvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_etr_name"
+        android:text="Enter Image Description:"
+        android:textSize="20dp"
+        android:textColor="@color/Black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edtxt_img_name"
+        android:textSize="18dp"
+        android:hint="Describe image in a one word"
+        android:layout_below="@+id/txt_etr_name"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_select_img"
+        android:textSize="20dp"
+        android:text="Select Image from gallery"
+        android:textColor="@color/Black"
+        android:layout_below="@+id/edtxt_img_name"
+        android:layout_marginTop="5dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/imgv_img_upload"
+        android:layout_below="@id/txt_select_img"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/notemsg" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_upload"
+        android:text="Upload"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="116dp"
+        android:layout_below="@id/imgv_img_upload"
+        android:drawableLeft="@drawable/baseline_cloud_upload_24"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_back"
+        android:paddingHorizontal="120dp"
+        android:drawableLeft="@drawable/baseline_arrow_back_24"
+        android:gravity="center_vertical"
+        android:text="Back"
+        android:layout_below="@id/btn_upload"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

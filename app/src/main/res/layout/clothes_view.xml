@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="440dp"
+        android:layout_height="581dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/imgv_cloth_view">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ready To Try?"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/imgv_cloth_view"
+        android:id="@+id/txtv_question"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv_question"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_back"
+            android:text="Back"
+            android:drawableLeft="@drawable/baseline_arrow_back_24" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_go"
+            android:layout_toEndOf="@+id/btn_back"
+            android:layout_marginLeft="20dp"
+            android:drawableRight="@drawable/baseline_arrow_forward_24"
+            android:text="Go" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
